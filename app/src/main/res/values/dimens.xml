@@ -1,0 +1,7 @@
+<resources>
+    <dimen name="tile">10dp</dimen>
+    <dimen name="gridWidth">240dp</dimen>
+    <dimen name="gridHeight">160dp</dimen>
+    <dimen name="dpadButton">64dp</dimen>
+    <dimen name="mute">48dp</dimen>
+</resources>
