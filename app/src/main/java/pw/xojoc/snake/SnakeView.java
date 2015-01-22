@@ -85,7 +85,7 @@ public class SnakeView extends View {
 
     public SnakeView(Context context, AttributeSet attrs) {
         super(context, attrs);
-        initSnakeView(context);
+        initSnakeView();
     }
 
     public SnakeView(Context context, AttributeSet attrs, int defStyle) {
