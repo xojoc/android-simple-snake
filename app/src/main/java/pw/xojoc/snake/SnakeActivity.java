@@ -26,10 +26,8 @@ import android.widget.TextView;
 
 /* TODO:
         Vibratioin
-        gameplay youtube
         menu
         support keys
-        tweak dpad
         optimize high score drawing
         delay after death
 */
@@ -78,11 +76,6 @@ public class SnakeActivity extends Activity {
         editor.putBoolean("playSounds", snakeView.playSounds);
         editor.putInt("speed", snakeView.speed);
         editor.apply();
-    }
-
-    @Override
-    protected void onStart() {
-        super.onStart();
     }
 
     @Override

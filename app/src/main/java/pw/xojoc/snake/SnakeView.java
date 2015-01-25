@@ -346,8 +346,10 @@ public class SnakeView extends View {
     }
 
     void destroySounds() {
-        collectSound.release();
-        collectSound = null;
+        if (collectSound != null) {
+            collectSound.release();
+            collectSound = null;
+        }
     }
 
     void setPlaySounds(boolean play) {
